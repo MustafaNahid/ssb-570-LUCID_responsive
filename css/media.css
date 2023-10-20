@@ -1,0 +1,233 @@
+@media (max-width: 767px) {
+    .nav-item{
+        margin: 5px 0px;
+    }
+    .nav-link{
+        display: inline-block;
+    }
+    .navbar-brand img{
+        max-width: 90%;
+    }
+    .navbar-nav{
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .phone{
+        display: none;
+    }
+    .phone_on_small_device{
+        display: inherit;
+        text-align: center;        
+    }
+    .phone_on_small_device img{
+        width: 75%;
+        margin: auto;   
+        margin-bottom: 25px;     
+    }
+
+    .banner {
+        text-align: center;
+        padding: 30px 0px;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+    .banner p {
+        margin-bottom: 25px
+    }
+    .btn_download {
+        padding: 13px 17px;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .btn_view {
+        padding: 13px 17px;
+        font-size: 12px;
+    }
+
+    .feature {
+        padding: 50px 0px;
+    }
+    .feature .section_title h1 {
+        font-size: 28px;
+    }
+    .feature .section_title {
+        margin-bottom: 10px;
+    }
+    .feature .section_title span {
+        margin-top: 10px;
+    }
+
+    .feature .feature_item {
+        margin-top: 30px;
+    }
+
+    .detail_section{
+        padding: 50px 0px;
+    }
+    .detail_section .section_title {
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 30px;
+        text-align: center;        
+    }    
+    .detail_section .section_title h4 {
+        margin-top: 30px;
+    }
+    .detail_section .section_title h1 {
+        font-size: 28px;
+    }
+    .detail_section .section_title span {
+        padding: 0px;
+        margin: 0px;
+        margin: auto;
+        margin-top: 10px;           
+    }
+    .detail_section p{
+        margin-bottom: 20px;
+    }
+    .phone_img{
+        text-align: center;
+    }
+
+    .customize_section{
+        padding: 50px 0px;    
+    }
+    .customize_section .section_title {
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .customize_section .section_title h1 {
+        font-size: 28px;
+    }
+    .customize_section .section_title span {
+        padding: 0px;
+        margin: 0px;
+        margin: auto;
+        margin-top: 10px;        
+    }
+    .customize_section p{
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    .testimonial_section{
+        padding: 50px 0px;
+    }
+    .testimonial_section .section_title{
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    .testimonial_section .section_title h1{
+        font-size: 28px;        
+    }
+    .testimonial_section .section_title span {
+        padding: 0px;
+        margin: 0px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .testimonial_carousal p{
+        text-align: center;
+    }
+    .client{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testimonial_carousal .owl-dots{
+        bottom: -115px;
+    }
+
+    .theme_download{
+        padding: 30px 0px;
+    }
+    .query_statement h1{
+        font-size: 24px;
+    }
+    .query_btns {
+        margin-top: 20px;
+    }
+    .query_btns .btn_view {
+        padding: 14px 16px;
+        font-size: 11px;
+    }
+    .query_btns .btn_download {
+        padding: 14px 16px;
+        font-size: 11px;
+        margin-left: 3px;
+    }
+
+    .pricing_section{
+        padding: 50px 0px;
+    }
+    .pricing_section .section_title{
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    .pricing_section .section_title h1{
+        font-size: 28px;
+    }
+    .pricing_section .section_title span{
+        padding: 0px; 
+        margin: 0px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .contact_us{
+        padding: 50px 0px;
+        padding-bottom: 370px;
+    }
+    .contact_us .section_title{
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    .contact_us .section_title h1{
+        font-size: 28px;
+    }
+    .contact_us .section_title span{
+        padding: 0px; 
+        margin: 0px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .info{
+        margin-bottom: 30px;
+    }
+    .contact_form {
+        width: 60%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .theme_download{
+        padding: 30px 0px;
+    }
+    .query_statement{
+        text-align: center;
+    }
+    .query_statement h1{
+        font-size: 20px;
+    }
+    .query_btns {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .query_btns .btn_view{
+        margin: 0;
+        margin-right: 3px;
+    }
+
+    .info .info_icon{
+        margin-bottom: 0px;
+    }
+    .contact_form {
+        width: 85%;
+    }
+}
