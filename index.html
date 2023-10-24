@@ -28,6 +28,7 @@
     <header>
         <div class="container">
             <div class="row">
+<!--                
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
@@ -61,8 +62,52 @@
                             </ul>
                         </div>
                     </div>
-                </nav>                
+                </nav>    
+-->               
+
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.png" class="img-fluid" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            <span class="toggler-icon">
+                                <i class="fa-solid fa-bars-staggered"></i>
+                            </span>
+                        </button>                        
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close btn_close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                            </div>
+<!--                            
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> 
+-->
+                          
+                            <ul class="navbar-nav mb-2 mb-lg-0 nav_list">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">about</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>   
             </div>
+
             <div class="row banner">
                 <div class="col-md-7 phone_on_small_device">
                     <img src="images/phone.png" class="img-fluid" alt="">
@@ -74,7 +119,7 @@
                     <a href="" class="btn btn_download">download now</a>
                     <a href="" class="btn btn_view">view features</a>
                 </div>
-                <div class="col-md-7">
+                <div class="col-sm-7">
                     <div class="phone">
                         <img src="images/phone.png" class="img-fluid" alt="">
                     </div>
@@ -131,15 +176,18 @@
 
     <!-- Detail Section -->
 
-    <section class="detail_section py5">
+    <section class="detail_section">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-7 phone_img">
+                    <img src="images/phone_2-removebg-preview.png" class="img-fluid" alt="">
+<!--                
                     <div class="phone_img">
                         <img src="images/phone_2-removebg-preview.png" class="img-fluid" alt="">
                     </div>
+-->                    
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5 detail_section_body">
                     <div class="section_title">
                         <h4>dip into the details</h4>
                         <h1>Beautiful on every device</h1>
@@ -190,7 +238,7 @@
                     </div>
                     <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 phone_img">
                     <img src="images/phone_3.png" class="img-fluid" alt="">
                 </div>
             </div>
@@ -289,7 +337,7 @@
         <div class="container">
             <div class="row theme_items" >
                 <div class="col-md-7 col-sm-5 query_statement" >
-                    <h1>Like what you see? Get this great theme now!</h1>
+                    <h1><b>Like what you see?</b> Get this great theme now!</h1>
                 </div>
                 <div class="col-md-5 col-sm-7 query_btns">
                     <a href="" class="btn btn_view">view features</a>
@@ -311,7 +359,7 @@
                 </div>                
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="price_box">
                         <h2>Free</h2>
                         <div class="price">
@@ -322,7 +370,7 @@
                         <a href="" class="btn btn_view">Order Now</a>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="price_box">
                         <h2>Personal</h2>
                         <div class="price">
@@ -333,7 +381,7 @@
                         <a href="" class="btn btn_view">Order Now</a>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="price_box">
                         <h2>Business</h2>
                         <div class="price">
@@ -344,7 +392,7 @@
                         <a href="" class="btn btn_view">Order Now</a>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="price_box">
                         <h2>Ultimate</h2>
                         <div class="price">

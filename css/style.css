@@ -34,8 +34,14 @@ header::after{
     z-index: -1;
 }
 
+.nav_list{
+    display: flex;
+    justify-content: end;
+}
+
 .nav-item{
     margin-left: 30px;
+    list-style: none;
 }
 
 .nav-link{
@@ -80,6 +86,7 @@ header::after{
 }
 
 .banner{
+    display: flex;
     align-items: center;
     min-height: 90vh;
 }
@@ -140,8 +147,8 @@ header::after{
 .phone{
     position: absolute;
     bottom: 0;
-    right: 110px;
-    width: 35%;
+    right: 60px;
+    width: 36%;
 }
 .phone_on_small_device{
     display: none;
@@ -153,7 +160,7 @@ header::after{
 
 .section_title{
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 .section_title h4{
     color: #008ed6;
@@ -222,7 +229,7 @@ header::after{
     color: #008ed6;
     font-size: 35px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .feature_item h2{
@@ -235,11 +242,11 @@ header::after{
 }
 
 hr{
-    color: #ededed;
+    color: #e2e2e2;
 }
 
 .detail_section{
-
+    padding: 70px 0;
 }
 .detail_section .section_title, .customize_section .section_title{
     text-align: left;
@@ -368,8 +375,12 @@ hr{
 }
 .theme_download h1{
     font-size: 32px;
+    color: #eaeaea;
+}
+.theme_download h1 b{
     color: #FFF;
 }
+
 
 .theme_items{
     align-items: center;

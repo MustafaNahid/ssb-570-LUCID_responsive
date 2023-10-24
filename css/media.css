@@ -1,60 +1,88 @@
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .nav-item{
-        margin: 5px 0px;
+        margin: 10px 0px;
+        text-align: center;
     }
     .nav-link{
-        display: inline-block;
+        display: inline;
+        font-size: 18px;
+        color: #fffefe;
     }
     .navbar-brand img{
         max-width: 90%;
     }
     .navbar-nav{
-        margin: 10px 0px;
-        text-align: center;
+        padding: 70px 0px;
+    
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-toggler:focus .toggler-icon i{
+        color: #008ed6;
     }
 
-    .phone{
-        display: none;
-    }
-    .phone_on_small_device{
-        display: inherit;
-        text-align: center;        
-    }
-    .phone_on_small_device img{
-        width: 75%;
-        margin: auto;   
-        margin-bottom: 25px;     
+    .offcanvas{
+        background-color: #000;
     }
 
-    .banner {
-        text-align: center;
-        padding: 30px 0px;
+    .offcanvas-header .btn_close{
+        font-size: 25px;
+        color: #fffefe;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
     }
 
-    .banner h1 {
-        font-size: 28px;
+    .banner h4{
+        font-size: 12px;
     }
-    .banner p {
-        margin-bottom: 25px
+    .banner h1{
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 15px 0 20px 0;
     }
+    .banner p{
+        color: #999999;
+        margin-bottom: 38px;
+        font-weight: 400;
+    }
+
     .btn_download {
         padding: 13px 17px;
         font-size: 12px;
-        margin-left: 5px;
     }
     .btn_view {
         padding: 13px 17px;
         font-size: 12px;
+        margin-left: 3px;
+    }
+
+    .btn_download:hover{
+        color: #fff;
+        border-color: #4e4e54;
+    }
+    
+    .btn_view:hover{
+        color: #fff;
+        background-color: #008ed6;
+        border-color: #008ed6;
+    }
+
+    .phone{
+        right: 105px;
+        width: 41%;
     }
 
     .feature {
         padding: 50px 0px;
     }
+    .feature .section_title {
+        margin-bottom: 40px;
+    }
     .feature .section_title h1 {
         font-size: 28px;
-    }
-    .feature .section_title {
-        margin-bottom: 10px;
     }
     .feature .section_title span {
         margin-top: 10px;
@@ -62,34 +90,46 @@
 
     .feature .feature_item {
         margin-top: 30px;
+        width: 50%;
+        margin: auto;
     }
+    .feature .feature_item p {
+        margin-bottom: 30px;
+    }    
+
 
     .detail_section{
         padding: 50px 0px;
+        /*text-align: center;*/
     }
+    
+    .detail_section .phone_img{
+        width: 58%;
+        margin: auto;
+    }
+
     .detail_section .section_title {
         padding: 0px;
         margin: 0px;
         margin-bottom: 30px;
-        text-align: center;        
+        text-align: left;        
     }    
     .detail_section .section_title h4 {
         margin-top: 30px;
     }
     .detail_section .section_title h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
     .detail_section .section_title span {
         padding: 0px;
         margin: 0px;
-        margin: auto;
         margin-top: 10px;           
+    }
+    .deatil_section_body{
+        width: 100%;
     }
     .detail_section p{
         margin-bottom: 20px;
-    }
-    .phone_img{
-        text-align: center;
     }
 
     .customize_section{
@@ -99,7 +139,7 @@
         padding: 0px;
         margin: 0px;
         margin-bottom: 30px;
-        text-align: center;
+        text-align: left;
     }
     .customize_section .section_title h1 {
         font-size: 28px;
@@ -107,12 +147,14 @@
     .customize_section .section_title span {
         padding: 0px;
         margin: 0px;
-        margin: auto;
         margin-top: 10px;        
     }
     .customize_section p{
         margin: 20px 0px;
-        text-align: center;
+    }
+    .customize_section .phone_img{
+        width: 50%;
+        margin: auto;
     }
 
     .testimonial_section{
@@ -140,7 +182,7 @@
     }
 
     .testimonial_carousal .owl-dots{
-        bottom: -115px;
+        bottom: -110px;
     }
 
     .theme_download{
@@ -159,7 +201,7 @@
     .query_btns .btn_download {
         padding: 14px 16px;
         font-size: 11px;
-        margin-left: 3px;
+        margin-left: 1px;
     }
 
     .pricing_section{
@@ -177,6 +219,203 @@
         margin: 0px;
         margin: auto;
         margin-top: 10px;
+    }
+    .price_box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .price_box p{
+        font-size: 16px;
+    }
+
+    .contact_us{
+        padding: 50px 0px;
+        padding-bottom: 235px;
+    }
+    .contact_us .section_title{
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    .contact_us .section_title h1{
+        font-size: 28px;
+    }
+    .contact_us .section_title span{
+        padding: 0px; 
+        margin: 0px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .info{
+        margin-bottom: 30px;
+    }
+    .contact_form {
+        width: 65%;
+        padding: 40px 50px 25px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .navbar-brand img{
+        max-width: 80%;
+    }
+    .banner {
+        text-align: center;
+        padding: 30px 0px;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+    .banner p {
+        margin-bottom: 25px
+    }
+    .btn_view {
+        padding: 13px 17px;
+        font-size: 12px;
+    }
+    .btn_download {
+        padding: 13px 17px;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .phone{
+        display: none;
+    }
+
+    .phone_on_small_device{
+        display: inherit;
+        text-align: center;
+    }
+    .phone_on_small_device img{
+        width: 75%;
+        margin: auto;   
+        margin-bottom: 25px;  
+    }    
+
+    .feature .feature_item {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .detail_section{
+        padding: 50px 0px;
+    }
+    .detail_section .section_title {
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 30px;
+        text-align: center;        
+    }    
+    .detail_section .section_title h4 {
+        margin-top: 30px;
+    }
+    .detail_section .section_title h1 {
+        font-size: 28px;
+    }
+    .detail_section .section_title span {
+        padding: 0px;
+        margin: 0px;
+        margin: auto;
+        margin-top: 10px;           
+    }
+    .detail_section p{
+        margin-bottom: 20px;
+    }
+    .detail_section .phone_img{
+        width: 50%;
+        margin: auto;
+    }
+
+    .customize_section{
+        padding: 50px 0px;    
+    }
+    .customize_section .section_title {
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .customize_section .section_title h1 {
+        font-size: 28px;
+    }
+    .customize_section .section_title span {
+        padding: 0px;
+        margin: 0px;
+        margin: auto;
+        margin-top: 10px;        
+    }
+    .customize_section p{
+        margin: 20px 0px;
+        text-align: center;
+    }
+    .customize_section .phone_img{
+        width: 70%;
+        margin: auto;
+    }
+
+    .testimonial_section{
+        padding: 50px 0px;
+    }
+    .testimonial_section .section_title{
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    .testimonial_section .section_title h1{
+        font-size: 28px;        
+    }
+    .testimonial_section .section_title span {
+        padding: 0px;
+        margin: 0px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .testimonial_carousal p{
+        text-align: center;
+    }
+    .client{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testimonial_carousal .owl-dots{
+        bottom: -160px;
+    }
+
+
+    .query_btns .btn_view {
+        padding: 14px 16px;
+        font-size: 11px;
+    }
+    .query_btns .btn_download {
+        padding: 14px 16px;
+        font-size: 11px;
+        margin-left: 3px;
+    }
+
+
+    .pricing_section{
+        padding: 50px 0px;
+    }
+    .pricing_section .section_title{
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    .pricing_section .section_title h1{
+        font-size: 28px;
+    }
+    .pricing_section .section_title span{
+        padding: 0px; 
+        margin: 0px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .price_box{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
     }
 
     .contact_us{
@@ -196,9 +435,7 @@
         margin: auto;
         margin-top: 10px;
     }
-    .info{
-        margin-bottom: 30px;
-    }
+
     .contact_form {
         width: 60%;
         padding: 20px;
@@ -206,6 +443,23 @@
 }
 
 @media (max-width: 575px) {
+    .navbar-brand img{
+        max-width: 70%;
+    }
+    .detail_section .phone_img{
+        width: 40%;
+        margin: auto;
+    }
+
+    .customize_section .phone_img{
+        width: 50%;
+        margin: auto;
+    }
+
+    .testimonial_carousal .owl-dots{
+        bottom: -135px;
+    }
+
     .theme_download{
         padding: 30px 0px;
     }
@@ -223,6 +477,12 @@
         margin: 0;
         margin-right: 3px;
     }
+
+    .price_box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }    
 
     .info .info_icon{
         margin-bottom: 0px;
