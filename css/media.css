@@ -173,6 +173,9 @@
         margin: auto;
         margin-top: 10px;
     }
+    .testimonial_carousal{
+        margin-bottom: 60px;
+    }
     .testimonial_carousal p{
         text-align: center;
     }
@@ -182,7 +185,7 @@
     }
 
     .testimonial_carousal .owl-dots{
-        bottom: -110px;
+        bottom: -100px;
     }
 
     .theme_download{
@@ -372,6 +375,10 @@
         margin: auto;
         margin-top: 10px;
     }
+
+    .testimonial_carousal{
+        margin-bottom: 60px;
+    }
     .testimonial_carousal p{
         text-align: center;
     }
@@ -381,7 +388,7 @@
     }
 
     .testimonial_carousal .owl-dots{
-        bottom: -160px;
+        bottom: -100px;
     }
 
 
@@ -456,8 +463,12 @@
         margin: auto;
     }
 
+    .testimonial_carousal{
+        margin-bottom: 60px;
+    }
+    
     .testimonial_carousal .owl-dots{
-        bottom: -135px;
+        bottom: -100px;
     }
 
     .theme_download{

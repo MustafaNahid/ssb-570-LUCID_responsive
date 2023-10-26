@@ -291,11 +291,10 @@ hr{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-block-size: 100vh;
     padding: 70px 0px;
 }
 .testimonial_section .section_title{
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 .testimonial_section .section_title h1{
     color: #ffffff;
@@ -306,6 +305,7 @@ hr{
 
 .testimonial_carousal{
     position: relative;
+    margin-bottom: 60px;
 }
 .testimonial_carousal .customers_comments{
     width: 98%;
@@ -341,7 +341,7 @@ hr{
 
 .testimonial_carousal .owl-dots{
     position: absolute;
-    bottom: -70px;
+    bottom: -100px;
     left: 50%;
     transform: translateX(-50%);
 }
