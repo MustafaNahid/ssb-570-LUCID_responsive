@@ -115,9 +115,12 @@
                 <div class="col-md-5">
                     <h4>introducing lucid theme</h4>
                     <h1>Carefully crafted and beautiful landing page.</h1>
+
                     <p>Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.</p>
-                    <a href="" class="btn btn_download">download now</a>
-                    <a href="" class="btn btn_view">view features</a>
+                    <div class="banner_btns">
+                        <a href="" class="btn btn_download">download now</a>
+                        <a href="" class="btn btn_view">view features</a>
+                    </div>
                 </div>
                 <div class="col-sm-7">
                     <div class="phone">
@@ -507,9 +510,9 @@
             $(".testimonial_carousal").owlCarousel({
                 loop: true,
                 nav: false,
-                /*autoplay: true,*/
+                autoplay: true,
                 autoplayTimeout: 2000,
-/*                autoplayHoverPause: true,*/
+                autoplayHoverPause: true,
                 smartSpeed: 500,
                 responsive: {
                     0: {

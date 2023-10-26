@@ -105,8 +105,11 @@ header::after{
 }
 .banner p{
     color: #999999;
-    margin-bottom: 50px;
     font-weight: 400;
+}
+
+.banner_btns{
+    margin-top: 10%;
 }
 
 .btn_download{
